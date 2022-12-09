@@ -327,7 +327,7 @@ function logCardResult(imageUrl, message) {
 app.post('/CreateCard', async (req, res) => {
 
     // Collect prompt for art
-    var artprompt = String(req.body.artprompt || req.body.description || "traditional christmas scene");
+    var artprompt = req.body.artprompt || req.body.description || "traditional christmas scene";
 
     // Collect prompt for message
     var msgprompt = req.body.msgprompt != "" ? req.body.theme + ", " + req.body.msgprompt : req.body.theme;
