@@ -2,4 +2,4 @@
 
 AI-generated Christmas cards!
 
-<a href="https://alphajot.com">Alphajot.com</a>
+Try for yourself on <a href="https://alphajot.com">Alphajot.com</a>!
