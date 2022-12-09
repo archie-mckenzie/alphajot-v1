@@ -1,0 +1,31 @@
+{
+  "name": "alphajot",
+  "version": "1.0.0",
+  "description": "AI-generated greeting cards",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archie-mckenzie/alphajot.git"
+  },
+  "author": "Archie McKenzie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archie-mckenzie/alphajot/issues"
+  },
+  "homepage": "https://github.com/archie-mckenzie/alphajot#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "imagekit": "^4.1.2",
+    "nodemailer": "^6.8.0",
+    "openai": "^3.1.0",
+    "stripe": "^11.2.0"
+  }
+}

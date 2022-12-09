@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    font-family: 'Rockwell', 'Rockwell Extra Bold';
+}
+h1 {
+    margin-top: 4vh;
+}
+h4 {
+    margin-top: 4vh;
+}
+.subtitle {
+    color:darkgreen;
+}
+.promptform {
+    font-family: 'Rockwell', 'Rockwell Extra Bold';
+}
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+label {
+    cursor: pointer;
+}
+.promptbar {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    width: 80%;
+    padding: 6px 10px;
+    max-width: 450px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.gobutton {
+    color: black;
+    font-family: 'Rockwell', 'Rockwell Extra Bold';
+    font-size: large;
+    width: 100px;
+    min-width: 10vw;
+    min-height: 2vh;
+    max-width: 200px;
+    max-height: 100px;
+    margin-top: 2vh;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, pink, antiquewhite, lightgreen);
+    
+}
+.gobutton:hover {
+    /* styles to apply when the cursor hovers over the button */
+    cursor: pointer;
+  }
+.credits {
+    margin-top: 4vh;
+    font-size: x-small;
+}
+.result {
+    width: 80%;
+}
+.card {
+    width: 60%;
+    aspect-ratio: 1;
+    max-width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #666666;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .greeting {
+    width: 80%;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .attribution {
+    font-size: x-small;
+    font-weight: normal;
+  }
+  .emailbar {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    width: 60%;
+    padding: 6px 10px;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .buybutton {
+    color: black;
+    font-family: 'Rockwell', 'Rockwell Extra Bold';
+    font-size: large;
+    width: 200px;
+    min-width: 10vw;
+    min-height: 2vh;
+    max-width: 200px;
+    max-height: 100px;
+    padding: 6px 9px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, pink, antiquewhite, lightgreen);
+    
+}
+.buybutton:hover {
+    /* styles to apply when the cursor hovers over the button */
+    cursor: pointer;
+  }

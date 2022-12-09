@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Alphajot</title>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css">
+</head>
+<body>
+    <div>
+        <h1><a href="/" style="text-decoration: none; color: black;">Alphajot</a></h1>
+        <center><h4 id="subtitle" class="subtitle">Christmas cards, written and illustrated by AI!</h4></center>
+    </div>
+    <div>
+    <form class="promptform" action="/CreateCard" method="post">
+        <h4>Basics</h4>
+        <div>
+            <input type="text" class="promptbar" id="addressbar" name="recipient" placeholder="Who is the card to?" autofocus="true"><br>
+            <input type="text" class="promptbar" id="namebar" name="sender" placeholder="Who is the card from?"><br>
+            <input type="checkbox" id="anoncheck" checked="false" name="anoncheck"><label for="anoncheck">&nbspI am sending anonymously</label><br>
+        </div>
+        <h4>Message Theme</h4>
+        <div>
+            <input type="radio" name="theme" id="heartfelt" value="heartfelt" checked="true"><label for="heartfelt">&nbspHeartfelt</label>
+            <input type="radio" name="theme" id="humorous" value="humorous"><label for="humorous">&nbspHumorous</label>
+            <input type="radio" name="theme" id="poetic" value="poetic"><label for="poetic">&nbspPoetic</label><br><br>
+            <input type="text" class="promptbar" id="msgbar" name="msgprompt" placeholder="Other details?">
+        </div>
+        <h4>Art Theme</h4>
+        <div>
+            <input type="text" class="promptbar" id="artbar" name="artprompt" placeholder="Describe your ideal art..."><br><br>
+            Or pick an art theme:<br><br>
+            <center><div style="column-count: 2; width: 350px;">
+                <input type="radio" name="description" id="christmas" value="christmas"><label for="christmas">&nbspChristmas&nbsp&nbsp🎅🎄</label><br><br>
+                <input type="radio" name="description" id="winterlandscape" value="winterlandscape"><label for="winterlandscape">&nbspWinter&nbsp&nbsp❄️</label><br><br>
+                <input type="radio" name="description" id="fineart" value="fineart"><label for="fineart">&nbspFine Art&nbsp&nbsp🎨</label><br><br>
+                <input type="radio" name="description" id="nativity" value="nativity"><label for="nativity">&nbspNativity&nbsp&nbsp✝️</label>
+            </div></center>
+        </div>
+        <button type="submit" id="gobutton" class="gobutton">Go!</button>
+    </form>
+    </div>
+    <div><a href="https://twitter.com/aksmckenzie"><p class="credits">© Archie McKenzie</p></a></div>
+    <script src="js/index.js"></script>
+</body>
+</html>
