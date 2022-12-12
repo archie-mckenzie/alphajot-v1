@@ -23,6 +23,8 @@ buybutton.addEventListener("click", function(event) {
         window.alert("Make sure you've got the right email!")
         event.preventDefault();
         return;
+    } else {
+        buybutton.style.display = "none";
     }
     
 });
