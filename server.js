@@ -154,7 +154,7 @@ async function finalizeArt(artprompt) {
     var metaprompt;
     switch (artprompt) {
         case "christmas":
-            metaprompt = "Write a brief idea for a Christmas-themed artistic image and its medium:";
+            metaprompt = "Write a brief idea for some Christmas card art, possibly including Santa Claus, Christmas trees, or reindeer:";
             break;
         case "winterlandscape":
             metaprompt = "Write a brief idea for a beautiful winter landscape painting:";
