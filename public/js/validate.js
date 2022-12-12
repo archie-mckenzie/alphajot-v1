@@ -13,10 +13,10 @@ function isValidEmail(email) {
     return true;
 }
 
-var buybutton = document.getElementById("buybutton")
+var sendbutton = document.getElementById("sendbutton")
 
 // Check if the form is valid
-buybutton.addEventListener("click", function(event) {
+sendbutton.addEventListener("click", function(event) {
     let email = document.getElementById('email').value.toLowerCase()
     
     if (!isValidEmail(email)) {
@@ -24,7 +24,7 @@ buybutton.addEventListener("click", function(event) {
         event.preventDefault();
         return;
     } else {
-        buybutton.style.display = "none";
+        sendbutton.style.display = "none";
     }
     
 });

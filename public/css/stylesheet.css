@@ -96,7 +96,7 @@ label {
     border-radius: 4px;
     margin-bottom: 10px;
   }
-  .buybutton {
+  .sendbutton {
     color: black;
     font-family: 'Rockwell', 'Rockwell Extra Bold';
     font-size: large;
@@ -111,7 +111,7 @@ label {
     background-image: linear-gradient(to right, pink, antiquewhite, lightgreen);
     
 }
-.buybutton:hover {
+.sendbutton:hover {
     /* styles to apply when the cursor hovers over the button */
     cursor: pointer;
   }
