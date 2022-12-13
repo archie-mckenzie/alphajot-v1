@@ -298,7 +298,7 @@ function formatResult(imageUrl, message) {
             + '<div class="card"><div class="greeting">'
             + '<p>' + message + '</p>'
             + '<p class="attribution">Art and text produced by an AI at Alphajot.com</p></div></div>'
-            + '<br><br><div><input class="emailbar" name="email" placeholder="Recipient Email Address"><br><br><button id="sendbutton" class="sendbutton" type="submit">Send!</button><p class="attribution">'
+            + '<br><br><div><input id="email" class="emailbar" name="email" placeholder="Recipient Email Address"><br><br><button id="sendbutton" class="sendbutton" type="submit">Send!</button><p class="attribution">'
             + '<input style="display: none;" name="img" value="' + imageUrl + '"><input style="display: none;" name="msg" value="' + message + '"></div>'
             + '</form><script src="js/validate.js"></script></body></html>'
 }
